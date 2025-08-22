@@ -345,7 +345,7 @@ const Landing = () => {
                 <li><a href="#features" className="hover:text-white">Features</a></li>
                 <li><a href="#pricing" className="hover:text-white">Pricing</a></li>
                 <li><a href="#" className="hover:text-white">API</a></li>
-                <li><a href="#" className="hover:text-white">Integrations</a></li>
+                <li><a href="integrations" className="hover:text-white">Integrations</a></li>
               </ul>
             </div>
             
@@ -353,7 +353,7 @@ const Landing = () => {
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white">About</a></li>
-                <li><a href="#" className="hover:text-white">Blog</a></li>
+                {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Blog</a></li> */}
                 {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Careers</a></li> */}
                 <li><a href="mailto:joeleboube@gmail.com" className="hover:text-white">Contact</a></li>
                 {/* This is the original Contact link <li><a href="#" className="hover:text-white">Contact</a></li> */}
@@ -363,10 +363,10 @@ const Landing = () => {
             <div>
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">Documentation</a></li>
-                <li><a href="#" className="hover:text-white">Help Center</a></li>
-                <li><a href="#" className="hover:text-white">Privacy</a></li>
-                <li><a href="#" className="hover:text-white">Terms</a></li>
+                {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Documentation</a></li> */}
+                {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Help Center</a></li> */}
+                <li><a href="privacy" className="hover:text-white">Privacy</a></li>
+                <li><a href="terms" className="hover:text-white">Terms</a></li>
               </ul>
             </div>
           </div>

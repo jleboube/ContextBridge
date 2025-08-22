@@ -7,11 +7,14 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
+import Privacy from './pages/Privacy';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import NewProject from './pages/NewProject';
 import ConversationDetail from './pages/ConversationDetail';
 import ExportHistory from './pages/ExportHistory';
+import Terms from './pages/Terms';
+import Integrations from './pages/Integrations';
 
 // Protected Route component
 const ProtectedRoute = ({ children }) => {
@@ -83,6 +86,22 @@ function App() {
                 <Register />
               </PublicRoute>
             } />
+            <Route path="/privacy" element={
+              <PublicRoute>
+                <Privacy />
+              </PublicRoute>
+            } />
+            <Route path="/terms" element={
+              <PublicRoute>
+                <Terms />
+              </PublicRoute>
+            } />
+            <Route path="/integrations" element={
+              <PublicRoute>
+                <Integrations />
+              </PublicRoute>
+            } />
+
             
             {/* Protected routes */}
             <Route path="/dashboard" element={
