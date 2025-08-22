@@ -3,7 +3,7 @@
 **🌉 Bridge Your AI. Never lose context again.**
 <!-- 🔥 Dynamic GitHub/Docker Badges -->
 
-| General Info                   | Features                                                 |
+| General Info                   | Repo Info                                                 |
 |-------------------------------|----------------------------------------------------------|
 | [![Website](https://img.shields.io/badge/Website-context--bridge.com-blue)](https://context-bridge.com)  | [![GitHub stars](https://img.shields.io/github/stars/jleboube/contextbridge?style=social)](https://github.com/jleboube/contextbridge/stargazers) |
 | [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  |  [![GitHub forks](https://img.shields.io/github/forks/jleboube/contextbridge?style=social)](https://github.com/jleboube/contextbridge/network/members)  |
