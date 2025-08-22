@@ -1,0 +1,100 @@
+{
+  "product_name": "ContextBridge",
+  "version": "v1.0",
+  "owner": "[Your Name / Company]",
+  "date": "August 21, 2025",
+  "executive_summary": "Generative AI tools... (summarized for JSON)",
+  "goals": [
+    "Pick up where left off across AI platforms",
+    "Overcome token/context limits with summarization",
+    "Provide centralized project workspace",
+    "Build SaaS product"
+  ],
+  "non_goals": [
+    "Competing directly with LLM providers",
+    "Training/hosting foundational models"
+  ],
+  "features": {
+    "core": [
+      "Conversation capture & storage",
+      "Context summarization engine",
+      "Cross-platform continuity",
+      "Project workspaces",
+      "User controls"
+    ],
+    "advanced_future": [
+      "AI style calibration",
+      "Team collaboration",
+      "API integration",
+      "Plugin ecosystem"
+    ]
+  },
+  "user_stories": [
+    "Researcher continues work from GPT-4 to Claude",
+    "Developer transfers brainstorming from ChatGPT to Gemini",
+    "Writer maintains plot consistency across AI tools",
+    "Consultant organizes client deliverables"
+  ],
+  "competitive_landscape": {
+    "chatgpt_memory": "Limited to OpenAI",
+    "claude_projects": "Memory in Anthropic ecosystem only",
+    "perplexity": "Summaries, not cross-provider handoff",
+    "notion_obsidian": "Storage without AI context optimization"
+  },
+  "differentiator": "Agnostic system unifying multiple AI providers",
+  "technical_requirements": {
+    "frontend": [
+      "React",
+      "Tailwind",
+      "OAuth",
+      "Rich text editor"
+    ],
+    "backend": [
+      "Node.js/Python",
+      "PostgreSQL",
+      "Vector DB",
+      "LLM summarizer"
+    ],
+    "integrations": [
+      "OpenAI API",
+      "Anthropic API",
+      "Google",
+      "Mistral"
+    ],
+    "infrastructure": [
+      "Docker Compose",
+      "On-prem option",
+      "Cloud SaaS"
+    ]
+  },
+  "data_model": {
+    "entities": [
+      "Project",
+      "Conversation",
+      "Message"
+    ],
+    "context_chain": "Summaries + embeddings",
+    "user_controls": "Editable summaries, tagging"
+  },
+  "security": [
+    "Encryption at rest/in transit",
+    "SOC2 readiness",
+    "Local/cloud option"
+  ],
+  "metrics": [
+    "Adoption",
+    "Engagement",
+    "Retention",
+    "Revenue"
+  ],
+  "pricing": {
+    "freemium": "Limited storage/handoffs",
+    "pro": "$15/month, unlimited projects, advanced features",
+    "enterprise": "$50+/user/month, team/workspaces/compliance"
+  },
+  "roadmap": {
+    "phase1": "MVP with storage + manual summarization",
+    "phase2": "Automated summarization + handoff",
+    "phase3": "Team collab + plugins + enterprise compliance"
+  }
+}
