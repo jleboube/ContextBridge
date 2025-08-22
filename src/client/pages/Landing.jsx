@@ -354,7 +354,7 @@ const Landing = () => {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white">About</a></li>
                 <li><a href="#" className="hover:text-white">Blog</a></li>
-                <li><a href="#" className="hover:text-white">Careers</a></li>
+                {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Careers</a></li> */}
                 <li><a href="#" className="hover:text-white">Contact</a></li>
               </ul>
             </div>
