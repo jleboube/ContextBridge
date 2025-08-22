@@ -1,13 +1,20 @@
 # ContextBridge – AI Conversation Memory
 
-> **🌉 Bridge Your AI. Never lose context again.**
+**🌉 Bridge Your AI. Never lose context again.**
+<!-- 🔥 Dynamic GitHub/Docker Badges -->
 
-[![Website](https://img.shields.io/badge/Website-context--bridge.com-blue)](https://context-bridge.com)  
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  
-[![SOC2](https://img.shields.io/badge/SOC2-Compliant-success)](#security--privacy)  
-[![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)](#deployment)  
-[![API](https://img.shields.io/badge/API-Available-orange?logo=swagger&logoColor=white)](#-resources)  
-[![Integrations](https://img.shields.io/badge/Integrations-Slack%20%7C%20GitHub%20%7C%20Teams-purple)](#-resources)
+| General Info                   | Features                                                 |
+|-------------------------------|----------------------------------------------------------|
+| [![Website](https://img.shields.io/badge/Website-context--bridge.com-blue)](https://context-bridge.com)  | [![GitHub stars](https://img.shields.io/github/stars/jleboube/contextbridge?style=social)](https://github.com/jleboube/contextbridge/stargazers) |
+| [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  |  [![GitHub forks](https://img.shields.io/github/forks/jleboube/contextbridge?style=social)](https://github.com/jleboube/contextbridge/network/members)  |
+| [![SOC2](https://img.shields.io/badge/SOC2-Compliant-success)](#security--privacy)  |  [![GitHub issues](https://img.shields.io/github/issues/jleboube/contextbridge)](https://github.com/jleboube/contextbridge/issues)   |
+| [![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)](#deployment)  |   [![Latest Release](https://img.shields.io/github/v/release/jleboube/contextbridge)](https://github.com/jleboube/contextbridge/releases)   |
+| [![API](https://img.shields.io/badge/API-Available-orange?logo=swagger&logoColor=white)](#-resources)  |   [![Latest Release](https://img.shields.io/github/v/release/jleboube/contextbridge)](https://github.com/jleboube/contextbridge/releases)   |
+| [![Integrations](https://img.shields.io/badge/Integrations-Slack%20%7C%20GitHub%20%7C%20Teams-purple)](#-resources)  |   [![Docker Pulls](https://img.shields.io/docker/pulls/contextbridge/contextbridge)](https://hub.docker.com/r/contextbridge/contextbridge) 
+
+
+
+  
 
 ---
 
@@ -21,31 +28,12 @@ It creates a **persistent memory layer** across providers (OpenAI, Anthropic, Go
 
 ## ✨ Key Features
 
-- **🔗 Cross-Platform Continuity**  
-  Switch between ChatGPT, Claude, Gemini, and others without starting over.  
-
-- **🧠 AI-Powered Summarization**  
-  Condense long chats into smart summaries while keeping critical insights.  
-
-- **📤 Smart Export & Handoff**  
-  Export in provider-optimized formats (JSON, Markdown, custom).  
-
-- **👥 Team Collaboration**  
-  Share AI projects, co-edit conversations, and preserve team knowledge.  
-
-- **🌐 Universal AI Memory**  
-  One memory layer for *all* AI platforms — no more silos.  
-
-- **🔒 Secure & Private**  
-  SOC2 compliant, enterprise-ready, optional on-premise deployment.  
-
----
-
-## 🧑‍💻 Perfect for Every Workflow
-
-- **🔬 Researchers** – Transfer context across reviews, data analysis, and multi-model workflows.  
-- **💻 Developers** – Track architecture decisions, code reviews, and system design across assistants.  
-- **✍ Content Creators** – Preserve story arcs, writing style, and continuity across projects.  
+- **🔗 Cross-Platform Continuity** – Switch between ChatGPT, Claude, Gemini, and others without losing context.  
+- **🧠 AI-Powered Summarization** – Condense long chats into smart summaries while keeping critical insights.  
+- **📤 Smart Export & Handoff** – Export in provider-optimized formats (JSON, Markdown, custom).  
+- **👥 Team Collaboration** – Share AI projects, co-edit conversations, and preserve team knowledge.  
+- **🌐 Universal AI Memory** – One memory layer for *all* AI platforms — no more silos.  
+- **🔒 Secure & Private** – SOC2 compliant, enterprise-ready, optional on-premise deployment.  
 
 ---
 
@@ -71,8 +59,11 @@ It creates a **persistent memory layer** across providers (OpenAI, Anthropic, Go
 
 ## 📦 Deployment
 
-ContextBridge supports **Docker** for simple deployment:
+If you want to contribute, ContextBridge supports **Docker** for simple deployment:
 
 ```bash
 docker pull contextbridge/contextbridge:latest
 docker run -d -p 8080:8080 contextbridge/contextbridge
+```
+
+Keep in mind, if developing locally, storage features are used at your own risk.
