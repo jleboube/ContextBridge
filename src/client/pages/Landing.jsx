@@ -355,7 +355,8 @@ const Landing = () => {
                 <li><a href="#" className="hover:text-white">About</a></li>
                 <li><a href="#" className="hover:text-white">Blog</a></li>
                 {/* This will be restored when applicable <li><a href="#" className="hover:text-white">Careers</a></li> */}
-                <li><a href="#" className="hover:text-white">Contact</a></li>
+                <li><a href="mailto:joeleboube@gmail.com" className="hover:text-white">Contact</a></li>
+                {/* This is the original Contact link <li><a href="#" className="hover:text-white">Contact</a></li> */}
               </ul>
             </div>
             
