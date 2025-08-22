@@ -20,9 +20,9 @@
 
 ## 🚀 Overview
 
-**ContextBridge** is built for professionals, researchers, and teams working on complex, long-form projects that span **multiple AI platforms**.  
+**ContextBridge** is built for professionals, researchers, teams, and anyone working on complex, long-form projects that are required to span **multiple AI platforms** due to token limits.  
 
-It creates a **persistent memory layer** across providers (OpenAI, Anthropic, Google, and more) so you never lose context, no matter where your conversation continues.
+It creates a **persistent memory layer** across providers (OpenAI, Anthropic, Google, and more) so you never lose context, no matter where your conversation continues.  Start with OpenAI, hit your token limit, then transition to Claude from Anthropic, hit your token limit, then move to Gemini from Google, rince, repeat.
 
 ---
 
